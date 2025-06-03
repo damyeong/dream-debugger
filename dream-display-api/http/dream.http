@@ -7,5 +7,5 @@ POST {{dream-display-api}}/v1/debug/chat-completion
 Content-Type: application/json
 
 {
-  "content": "유튜브를 보다가 노트북이 폭발했어."
+  "content": "물만 마셨는데 배가 부른 꿈"
 }
