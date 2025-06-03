@@ -5,6 +5,6 @@ import lombok.Builder;
 @Builder(toBuilder = true)
 public record CreateChatReq(
 
-    String prompt
+    String content
 ) {
 }

@@ -1,6 +1,9 @@
 package io.github.damyeong.openai.service;
 
+import io.github.damyeong.openai.protocol.ChatCompletionReq;
+
 public interface OpenAiClient {
 
-    String getChatCompletion(String prompt);
+    // Todo. add comments
+    String getChatCompletion(ChatCompletionReq req);
 }

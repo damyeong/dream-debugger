@@ -3,10 +3,9 @@ package io.github.damyeong.openai.protocol;
 import lombok.Builder;
 
 @Builder(toBuilder = true)
-public record ChatMessage(
+public record ChatCompletionReq(
 
-    String role,
-    String content
+    String instruction,
+    String userInput
 ) {
-
 }

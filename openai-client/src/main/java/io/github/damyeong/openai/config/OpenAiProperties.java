@@ -17,20 +17,20 @@ public class OpenAiProperties {
     /**
      * Model to use for chat completion (default: gpt-3.5-turbo)
      */
-    private String model = "gpt-3.5-turbo";
+    private String model;
     
     /**
      * Maximum tokens to generate
      */
-    private Integer maxTokens = 2000;
+    private Integer maxTokens;
     
     /**
      * Temperature for response generation (0.0 to 2.0)
      */
-    private Double temperature = 0.7;
+    private Double temperature;
     
     /**
      * API request timeout in seconds
      */
-    private Integer timeoutSeconds = 30;
+    private Integer timeoutSeconds;
 } 

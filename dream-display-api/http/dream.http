@@ -2,10 +2,10 @@
 GET {{dream-display-api}}/v1/debug
 
 
-### openAi call
+### 꿈 해몽 API
 POST {{dream-display-api}}/v1/debug/chat-completion
 Content-Type: application/json
 
 {
-  "prompt": "안녕? 네 소개를 해줘"
+  "content": "유튜브를 보다가 노트북이 폭발했어."
 }

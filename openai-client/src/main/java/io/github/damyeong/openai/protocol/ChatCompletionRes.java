@@ -4,7 +4,7 @@ import java.util.List;
 import lombok.Builder;
 
 @Builder(toBuilder = true)
-public record ChatCompletionResponse(
+public record ChatCompletionRes(
 
     List<Choice> choices
 ) {
