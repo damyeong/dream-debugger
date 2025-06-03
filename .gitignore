@@ -1,5 +1,5 @@
 # Java
-/out
+**/out
 *.class
 
 # IntelliJ
@@ -7,7 +7,7 @@
 *.iml
 
 # Build
-/build/
+**/build/
 .gradle/
 
 # 환경변수 파일

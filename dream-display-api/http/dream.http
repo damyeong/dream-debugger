@@ -1,0 +1,11 @@
+### health check
+GET {{dream-display-api}}/v1/debug
+
+
+### openAi call
+POST {{dream-display-api}}/v1/debug/chat-completion
+Content-Type: application/json
+
+{
+  "prompt": "안녕? 네 소개를 해줘"
+}

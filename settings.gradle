@@ -1,1 +1,4 @@
 rootProject.name = 'dream-debugger'
+include 'dream-display-api'
+include 'openai-client'
+
