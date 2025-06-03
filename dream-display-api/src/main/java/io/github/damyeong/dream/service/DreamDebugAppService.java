@@ -14,6 +14,10 @@ public class DreamDebugAppService {
     private final OpenAiClient openAiClient;
 
     public String getChatCompletion(CreateChatReq req) {
+        // Todo. validation 추가 필요
+        // Todo. DreamDebugPrompt.INSTRUCTION 상수화. 혹은 properties 로 관리
+        // Todo. Prompt Injection 방지
+
         return openAiClient.getChatCompletion(ChatCompletionReq.builder()
             .instruction(DreamDebugPrompt.INSTRUCTION)
             .userInput(req.content())
