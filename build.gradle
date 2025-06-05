@@ -23,4 +23,5 @@ java {
 
 ext {
     lombokVersion = '1.18.32'
+    springdocOpenapiVersion = '2.5.0'
 }
